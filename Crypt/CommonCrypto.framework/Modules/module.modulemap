@@ -1,0 +1,5 @@
+module CommonCrypto [system] {
+    header "../CryptFiles/CommonCrypto.h"
+   // header "/usr/include/CommonCrypto/CommonCrypto.h"
+    export *
+}
