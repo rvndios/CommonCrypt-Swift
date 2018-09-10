@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the this project, clone the repo, and run. This project based on CommonCrypto(<https://github.com/soffes/CommonCrypto) 
+To run the this project, clone the repo, and run. This project based on CommonCrypto(https://github.com/soffes/CommonCrypto) 
 
 ## Author
 
