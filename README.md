@@ -24,10 +24,12 @@ Supoort Digest and HMAC only.
 
 # Digest
 There are extensions for NSData and String for convenience:
-
+``` swift
 let sha1Data = "janani".sha1 // "rbed56189e249fe4ca8ed10a1edcade60e8ceac0"
 
 data.sha1  // <Data …>
+
+```
 
 # MD2, MD4, MD5, SHA1, SHA224, SHA256, SHA384, SHA512 are available.
 
@@ -38,9 +40,14 @@ Digest.md5(bytes: data.bytes, length: data.length) // [UInt8]
 # HMAC
 HMAC in CommonCrypto is also supported.
 
+``` swift
 HMAC.sign(message: "janani", algorithm: .sha1, key: "secret") // 1a90fa4e73686dfca75f5411d9fb81951edf1292
 
+HMAC.sign(message: "janani", algorithm: .sha256, key: "secretkey")
+
 HMAC.sign(data: messageData, algorithm: .sha1, key: keyData) // <Data …>
+```
+
 MD5, SHA1, SHA224, SHA256, SHA384, SHA512 are the available algorithms.
 
 ## License
