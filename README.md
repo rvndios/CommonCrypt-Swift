@@ -16,9 +16,9 @@ You can't Drag directly CommonCrypto.framework and EncryptFiles folder to you pr
 # Usage
 
 Just add,
-
+``` swift
 import CommonCrypto
-
+```
 # Documentation
 Supoort Digest and HMAC only.
 
