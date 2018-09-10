@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the this project, clone the repo, and run. This project based on CommonCrypto(https://github.com/soffes/CommonCrypto) 
+To run the this project, clone the repo, and run. This project based on CommonCrypto(https://github.com/soffes/CommonCrypto) and [Crypto](https://github.com/soffes/Crypto) 
 
 ## Author
 
@@ -15,5 +15,12 @@ Aravind, aravindscs@gmail.com
 
 ## License
 
-ARCrypt is available under the MIT license. See the LICENSE file for more info.
-# ARCrypt
+Project is available under the MIT license. See the LICENSE file for more info.
+
+# Usage
+
+You can't Drag directly CommonCrypto.framework and EncryptFiles folder to you project folder directly.
+
+then just add,
+
+import CommonCrypto
